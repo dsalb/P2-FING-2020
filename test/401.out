@@ -1,0 +1,58 @@
+1>#  Prueba de operaciones de pila.
+2>p está vacia.
+3>Apilado.
+4>Apilado.
+5>Apilado.
+6>Apilado.
+7>Apilado.
+8>Apilado.
+9>Apilado.
+10>Apilado.
+11>Apilado.
+12>p NO está vacia.
+13>p NO está llena.
+14>Apilado.
+15>p NO está vacia.
+16>p está llena.
+17>10.
+18>Desapilado.
+19>Desapilado.
+20>8.
+21>Desapilado.
+22>Desapilado.
+23>6.
+24>Desapilado.
+25>Desapilado.
+26>4.
+27>Desapilado.
+28>Desapilado.
+29>2.
+30>Desapilado.
+31>1.
+32>Desapilado.
+33>p está vacia.
+34>p NO está llena.
+35>Estructuras reiniciadas.
+36>#  Prueba de operaciones de colaAvls .
+37>cavl está vacia.
+38>Encolado.
+39>cavl NO está vacia.
+40>5
+41>Encolado.
+42>cavl NO está vacia.
+43>5
+44>Encolado.
+45>Encolado.
+46>cavl NO está vacia.
+47>5
+48>Desencolado.
+49>-4
+50>cavl NO está vacia.
+51>Desencolado.
+52>20
+53>Desencolado.
+54>50
+55>cavl NO está vacia.
+56>Desencolado.
+57>cavl está vacia.
+58>Fin.

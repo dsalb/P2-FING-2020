@@ -1,0 +1,182 @@
+1>#  Prueba de esVacioBinario, raiz, izquierdo, derecho, buscarSubarbol.
+2>sub es vacío.
+3>Vacio.
+4>Insertado.
+5>No vacío.
+6>(1,1.10)
+7>sub es vacío.
+8>(1,1.10)
+9>Insertado.
+10>Insertado.
+11>izquierdo de b es vacío.
+12>(2,2.20)
+13>sub es vacío.
+14>(1,1.10)
+15>(2,2.20)
+16>(3,3.30)
+17>Estructuras reiniciadas.
+18>#  prueba de imprimirBinario.
+19>
+20>Insertado.
+21>
+(5,5.50)
+22>Insertado.
+23>Insertado.
+24>
+-(6,6.60)
+(5,5.50)
+-(3,3.30)
+25>Insertado.
+26>Insertado.
+27>Insertado.
+28>Insertado.
+29>
+---(9,9.90)
+----(8,8.80)
+--(7,7.70)
+-(6,6.60)
+(5,5.50)
+-(3,3.30)
+--(2,2.20)
+30>Estructuras reiniciadas.
+31>#  Prueba de mayor, removerMayor, removerDeBinario.
+32>Insertado.
+33>Insertado.
+34>Insertado.
+35>Insertado.
+36>Insertado.
+37>
+--(12,12.12)
+-(11,11.11)
+(10,10.10)
+-(9,9.90)
+--(8,8.80)
+38>(12,12.12)
+39>Removido el mayor.
+40>(11,11.11)
+41>
+-(11,11.11)
+(10,10.10)
+-(9,9.90)
+--(8,8.80)
+42>(10,10.10)
+43>(11,11.11)
+44>(9,9.90)
+45>Removido.
+46>
+-(11,11.11)
+(10,10.10)
+-(8,8.80)
+47>Removido el mayor.
+48>
+(10,10.10)
+-(8,8.80)
+49>Removido.
+50>Removido.
+51>
+52>Estructuras reiniciadas.
+53>#  Prueba cantidadBinario, esAvl, alturaBinario.
+54>Insertado.
+55>Insertado.
+56>Insertado.
+57>Insertado.
+58>Insertado.
+59>
+--(12,12.12)
+-(11,11.11)
+(10,10.10)
+-(9,9.90)
+--(8,8.80)
+60>5.
+61>AVL.
+62>Insertado.
+63>
+---(13,13.13)
+--(12,12.12)
+-(11,11.11)
+(10,10.10)
+-(9,9.90)
+--(8,8.80)
+64>No AVL.
+65>6.
+66>4.
+67>Removido el mayor.
+68>
+--(12,12.12)
+-(11,11.11)
+(10,10.10)
+-(9,9.90)
+--(8,8.80)
+69>5.
+70>3.
+71>Estructuras reiniciadas.
+72>#  Prueba linealizacion, menores sumaUltimosPositivos.
+73>Insertado.
+74>Insertado.
+75>Insertado.
+76>Insertado.
+77>Insertado.
+78>Insertado.
+79>Insertado.
+80>
+--(28,28.28)
+-(24,24.24)
+--(20,20.20)
+(16,16.16)
+--(12,12.12)
+-(8,8.80)
+--(4,4.40)
+81>(4,4.40)(8,8.80)(12,12.12)(16,16.16)(20,20.20)(24,24.24)(28,28.28)
+82>
+--(28,28.28)
+-(24,24.24)
+--(20,20.20)
+(16,16.16)
+--(12,12.12)
+-(8,8.80)
+--(4,4.40)
+83>
+84>
+-(12,12.12)
+(8,8.80)
+-(4,4.40)
+85>
+(16,16.16)
+--(12,12.12)
+-(8,8.80)
+--(4,4.40)
+86>72.72
+87>Insertado.
+88>
+--(28,28.28)
+-(24,24.24)
+---(22,-22.22)
+--(20,20.20)
+(16,16.16)
+--(12,12.12)
+-(8,8.80)
+--(4,4.40)
+89>72.72
+90>114.20
+91>114.20
+92>0.00
+93>Estructuras reiniciadas.
+94>#  Prueba nivelEnBinario y esCamino.
+95>Insertado.
+96>Insertado.
+97>Insertado.
+98>Insertado.
+99>Insertado.
+100>Insertado.
+101>Insertado.
+102>l = 0.
+103>(16,16.16)
+104>(8,8.80)(24,24.24)
+105>(4,4.40)(12,12.12)(20,20.20)(28,28.28)
+106>
+107>NO es camino.
+108>NO es camino.
+109>Es camino.
+110>Es camino.
+111>NO es camino.
+112>Fin.

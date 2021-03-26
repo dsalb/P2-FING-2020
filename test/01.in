@@ -1,0 +1,38 @@
+# Implementar de cantidadVertices, hayMParejas, hacerVecinos
+cantidadVertices
+hayMParejas
+hacerVecinos 1 5 15
+hacerVecinos 2 5 15
+hacerVecinos 3 5 15
+hacerVecinos 4 5 15
+hacerVecinos 6 5 15
+hacerVecinos 7 5 15
+hacerVecinos 8 5 15
+hacerVecinos 9 5 15
+hacerVecinos 10 5 15
+hacerVecinos 1 6 15
+hacerVecinos 2 6 15
+hacerVecinos 3 6 15
+hacerVecinos 4 6 15
+hacerVecinos 7 6 15
+hacerVecinos 8 6 15
+hacerVecinos 9 6 15
+hacerVecinos 10 6 15
+hacerVecinos 7 1 15
+hacerVecinos 7 2 15
+hacerVecinos 7 3 15
+hacerVecinos 7 4 15
+hacerVecinos 7 8 15
+hacerVecinos 7 9 15
+hacerVecinos 7 10 15
+hacerVecinos 8 1 15
+hacerVecinos 8 2 15
+hacerVecinos 8 3 15
+hacerVecinos 8 4 15
+hacerVecinos 8 9 15
+cantidadVertices
+hayMParejas
+hacerVecinos 8 10 15
+cantidadVertices
+hayMParejas
+Fin

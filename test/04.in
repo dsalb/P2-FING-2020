@@ -1,0 +1,31 @@
+# Implementar vecinos
+vecinos 1
+vecinos 2
+vecinos 9
+vecinos 10
+hacerVecinos 5 2 25
+vecinos 2
+vecinos 5
+hacerVecinos 5 9 59
+vecinos 2
+vecinos 5
+vecinos 9
+hacerVecinos 2 9 29
+vecinos 1
+vecinos 2
+vecinos 5
+vecinos 9
+vecinos 10
+hacerVecinos 5 1 100
+hacerVecinos 5 3 100
+hacerVecinos 4 5 100
+hacerVecinos 6 5 100
+hacerVecinos 5 7 100
+hacerVecinos 5 8 100
+hacerVecinos 5 10 100
+vecinos 1
+vecinos 2
+vecinos 5
+vecinos 9
+vecinos 10
+Fin

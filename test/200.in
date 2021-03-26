@@ -1,0 +1,639 @@
+# Implementar structs, crearCadena, liberarCadena, inicioCadena
+# Estas funciones siempre son llamadas por principal.cpp
+reiniciar
+# Implementar esVaciaCadena, esFinalCadena, infoCadena, siguiente, insertarAlFinal
+esVaciaCadena
+esFinalCadena
+insertarAlFinal (1,2.1)
+esFinalCadena
+esVaciaCadena
+inicioCadena
+esFinalCadena
+infoCadena
+insertarAlFinal (3,0.3)
+esFinalCadena
+infoCadena
+siguiente
+esFinalCadena
+infoCadena
+insertarAlFinal (2,1.2)
+infoCadena
+siguiente
+infoCadena
+inicioCadena
+infoCadena
+siguiente
+infoCadena
+siguiente
+infoCadena
+insertarAlFinal (9,1.2)
+insertarAlFinal (8,1.2)
+insertarAlFinal (7,1.2)
+insertarAlFinal (6,1.2)
+insertarAlFinal (5,1.2)
+insertarAlFinal (4,1.2)
+siguiente
+infoCadena
+siguiente
+siguiente
+siguiente
+siguiente
+esFinalCadena
+siguiente
+esFinalCadena
+infoCadena
+inicioCadena
+infoCadena
+reiniciar
+# Implmentar insertarAntes
+insertarAlFinal (5,2.8)
+inicioCadena
+insertarAntes (3,6.7)
+infoCadena
+inicioCadena
+infoCadena
+siguiente
+infoCadena
+insertarAntes (4,3.1)
+infoCadena
+inicioCadena
+infoCadena
+siguiente
+infoCadena
+insertarAntes (8,2.9)
+infoCadena
+inicioCadena
+infoCadena
+insertarAntes (1,7.2)
+infoCadena
+inicioCadena
+infoCadena
+siguiente
+infoCadena
+siguiente
+infoCadena
+siguiente
+infoCadena
+siguiente
+infoCadena
+reiniciar
+# Implementar finalCadena, anterior
+insertarAlFinal (10,2.1)
+finalCadena
+infoCadena
+insertarAlFinal (9,2.1)
+insertarAlFinal (8,2.1)
+insertarAlFinal (7,2.1)
+insertarAlFinal (6,2.1)
+insertarAlFinal (5,2.1)
+insertarAlFinal (4,2.1)
+finalCadena
+infoCadena
+anterior
+infoCadena
+anterior
+infoCadena
+anterior
+infoCadena
+anterior
+infoCadena
+anterior
+infoCadena
+anterior
+infoCadena
+reiniciar
+# 05 Implementar esInicioCadena esLocalizador
+esInicioCadena
+esFinalCadena
+insertarAlFinal (10,2.1)
+esInicioCadena
+esFinalCadena
+inicioCadena
+esInicioCadena
+esFinalCadena
+finalCadena
+esInicioCadena
+esFinalCadena
+insertarAlFinal (9,2.1)
+esInicioCadena
+esFinalCadena
+finalCadena
+esInicioCadena
+esFinalCadena
+insertarAlFinal (8,2.1)
+esInicioCadena
+esFinalCadena
+inicioCadena
+esInicioCadena
+esFinalCadena
+anterior
+esLocalizador
+inicioCadena
+esLocalizador
+esInicioCadena
+esFinalCadena
+siguiente
+esLocalizador
+esInicioCadena
+esFinalCadena
+siguiente
+esLocalizador
+esInicioCadena
+esFinalCadena
+siguiente
+esLocalizador
+reiniciar
+# Implmentar removerDeCadena
+insertarAlFinal (6,2.1)
+insertarAlFinal (7,2.1)
+insertarAlFinal (8,2.1)
+insertarAlFinal (9,2.1)
+insertarAlFinal (10,2.1)
+inicioCadena
+siguiente
+siguiente
+removerDeCadena
+inicioCadena
+siguiente
+infoCadena
+siguiente
+infoCadena
+inicioCadena
+removerDeCadena
+inicioCadena
+infoCadena
+finalCadena
+removerDeCadena
+finalCadena
+infoCadena
+removerDeCadena
+finalCadena
+infoCadena
+inicioCadena
+infoCadena
+esVaciaCadena
+removerDeCadena
+esVaciaCadena
+insertarAlFinal (6,2.1)
+esVaciaCadena
+inicioCadena
+infoCadena
+siguiente
+esLocalizador
+finalCadena
+infoCadena
+anterior
+esLocalizador
+reiniciar
+# Implementar imprimirCadena
+imprimirCadena
+insertarAlFinal (6,2.1)
+imprimirCadena
+insertarAlFinal (7,3.1)
+insertarAlFinal (8,4.1)
+insertarAlFinal (9,5.1)
+insertarAlFinal (10,6.1)
+imprimirCadena
+reiniciar
+# Implementar kesimo
+kesimo 0
+kesimo 1
+insertarAlFinal (3,6.8)
+kesimo 0
+kesimo 1
+infoCadena
+kesimo 2
+finalCadena
+insertarAlFinal (5,3.4)
+insertarAlFinal (8,9.4)
+insertarAlFinal (9,2.6)
+kesimo 1
+infoCadena
+kesimo 2
+infoCadena
+kesimo 4
+infoCadena
+kesimo 5
+reiniciar
+# Implementar localizadorEnCadena, precedeEnCadena
+localizadorEnCadena
+insertarAlFinal (5,3.2)
+localizadorEnCadena
+finalCadena
+localizadorEnCadena
+siguiente
+localizadorEnCadena
+precedeEnCadena 1
+finalCadena
+precedeEnCadena 1
+precedeEnCadena 0
+precedeEnCadena 2
+insertarSegmentoDespues 3 (5,3.4) (8,9.4) (9,2.6)
+precedeEnCadena 1
+precedeEnCadena 0
+precedeEnCadena 2
+siguiente
+precedeEnCadena 1
+precedeEnCadena 2
+precedeEnCadena 3
+finalCadena
+precedeEnCadena 4
+precedeEnCadena 5
+anterior
+precedeEnCadena 4
+precedeEnCadena 3
+reiniciar
+# Implementar insertarSegmentoDespues
+insertarSegmentoDespues 0
+imprimirCadena
+insertarSegmentoDespues 1 (5,3.4)
+imprimirCadena
+finalCadena
+insertarSegmentoDespues 0
+imprimirCadena
+removerDeCadena
+insertarSegmentoDespues 3 (5,3.4) (8,9.4) (9,2.6)
+imprimirCadena
+inicioCadena
+insertarSegmentoDespues 0
+imprimirCadena
+insertarSegmentoDespues 2 (6,5.2) (7,0.9)
+imprimirCadena
+reiniciar
+# Implementar copiarSegmento
+copiarSegmento 1 1
+insertarSegmentoDespues 1 (3,2.4)
+copiarSegmento 1 1
+imprimirCadena
+finalCadena
+insertarSegmentoDespues 3 (5,3.4) (8,9.4) (9,2.6)
+copiarSegmento 1 1
+copiarSegmento 1 4
+copiarSegmento 2 3
+copiarSegmento 4 4
+reiniciar
+# Implementar borrarSegmento
+borrarSegmento 1 1
+insertarSegmentoDespues 1 (3,2.4)
+borrarSegmento 1 1
+imprimirCadena
+inicioCadena
+insertarSegmentoDespues 5 (5,3.4) (6,4.1) (7,3.5) (8,9.4) (9,2.6)
+borrarSegmento 2 2
+imprimirCadena
+borrarSegmento 3 4
+imprimirCadena
+borrarSegmento 1 1
+imprimirCadena
+inicioCadena
+insertarSegmentoDespues 5 (5,3.4) (6,4.1) (7,3.5) (8,9.4) (9,2.6)
+imprimirCadena
+borrarSegmento 1 6
+imprimirCadena
+reiniciar
+# Implementar cambiarEnCadena, intercambiar
+insertarSegmentoDespues 3 (5,3.4) (8,9.4) (9,2.6)
+inicioCadena
+cambiarEnCadena (3,2.5)
+imprimirCadena
+siguiente
+cambiarEnCadena (6,9.2)
+imprimirCadena
+siguiente
+cambiarEnCadena (7,2.5)
+imprimirCadena
+intercambiar 1 1
+imprimirCadena
+intercambiar 3 3
+imprimirCadena
+finalCadena
+infoCadena
+intercambiar 3 1
+infoCadena
+imprimirCadena
+intercambiar 1 3
+infoCadena
+imprimirCadena
+intercambiar 2 3
+infoCadena
+imprimirCadena
+reiniciar
+# Implementar siguienteClave, anteriorClave
+siguienteClave 5
+insertarSegmentoDespues 3 (5,3.4) (8,9.4) (6,2.6)
+inicioCadena
+siguienteClave 5
+infoCadena
+siguienteClave 8
+infoCadena
+inicioCadena
+siguienteClave 6
+infoCadena
+siguienteClave 7
+esLocalizador
+finalCadena
+insertarSegmentoDespues 3 (5,-3.2) (8,-9.2) (6,-2.4)
+inicioCadena
+siguiente
+siguienteClave 5
+infoCadena
+inicioCadena
+siguienteClave 6
+infoCadena
+siguienteClave 6
+infoCadena
+siguiente
+siguienteClave 6
+infoCadena
+finalCadena
+anteriorClave 6
+infoCadena
+anteriorClave 8
+infoCadena
+anteriorClave 6
+infoCadena
+anteriorClave 5
+infoCadena
+anteriorClave 6
+esLocalizador
+reiniciar
+# Implementar menorEnCadena
+insertarSegmentoDespues 4 (3,3.4) (8,9.4) (9,2.6) (5,1.4)
+inicioCadena
+menorEnCadena
+siguiente
+menorEnCadena
+menorEnCadena
+reiniciar
+# Implementar pertenece
+pertenece 5
+insertarSegmentoDespues 3 (5,3.4) (8,9.4) (6,2.6)
+pertenece 5
+pertenece 6
+pertenece 8
+pertenece 9
+reiniciar
+# Implementar longitud
+longitud
+insertarSegmentoDespues 3 (5,3.4) (8,9.4) (6,2.6)
+longitud
+reiniciar
+# Implementar estaOrdenada
+estaOrdenadaPorNaturales
+insertarAlFinal (3,6.7)
+estaOrdenadaPorNaturales
+insertarAlFinal (5,3.7)
+estaOrdenadaPorNaturales
+insertarAlFinal (5,2.7)
+estaOrdenadaPorNaturales
+finalCadena
+insertarSegmentoDespues 3 (8,0.4) (9,3.1) (11,2.5)
+estaOrdenadaPorNaturales
+inicioCadena
+insertarAntes (6,3.7)
+estaOrdenadaPorNaturales
+inicioCadena
+removerDeCadena
+estaOrdenadaPorNaturales
+insertarAlFinal (6,3.7)
+estaOrdenadaPorNaturales
+finalCadena
+removerDeCadena
+finalCadena
+insertarAntes (6,3.7)
+estaOrdenadaPorNaturales
+anterior
+removerDeCadena
+estaOrdenadaPorNaturales
+reiniciar
+# Implementar hayNatsRepetidos
+hayNatsRepetidos
+insertarAlFinal (6,2.4)
+hayNatsRepetidos
+insertarAlFinal (4,2.4)
+hayNatsRepetidos
+insertarAlFinal (9,2.4)
+hayNatsRepetidos
+insertarAlFinal (9,3.4)
+hayNatsRepetidos
+finalCadena
+cambiarEnCadena (7,2.4)
+hayNatsRepetidos
+insertarAlFinal (6,3.4)
+hayNatsRepetidos
+finalCadena
+cambiarEnCadena (1,2.4)
+hayNatsRepetidos
+imprimirCadena
+finalCadena
+insertarAntes (4,3.4)
+hayNatsRepetidos
+imprimirCadena
+reiniciar
+# Implementar sonIgualesCadena
+sonIgualesCadena 0
+sonIgualesCadena 1 (5,3.6)
+insertarAlFinal (5,2.2)
+sonIgualesCadena 0
+sonIgualesCadena 1 (5,3.6)
+sonIgualesCadena 1 (5,2.2)
+finalCadena
+insertarSegmentoDespues 3 (5,3.4) (8,9.4) (7,2.6)
+sonIgualesCadena 4 (5,2.2) (5,3.4) (8,9.4) (7,2.6)
+sonIgualesCadena 3 (5,2.2) (5,3.4) (8,9.4)
+sonIgualesCadena 5 (5,2.2) (5,3.4) (8,9.4) (7,2.6) (6,2.4)
+sonIgualesCadena 4 (5,2.2) (5,3.4) (8,9.4) (7,2.5)
+reiniciar
+# Implementar concatenar
+concatenar 0
+concatenar 3 (5,3.4) (8,9.4) (7,2.6)
+imprimirCadena
+insertarSegmentoDespues 3 (5,3.4) (8,9.4) (7,2.6)
+concatenar 0
+concatenar 3 (5,3.4) (8,9.4) (7,2.6)
+imprimirCadena
+reiniciar
+# Implementar ordenar
+ordenar
+insertarAlFinal (6,2.4)
+ordenar
+insertarAlFinal (2,3.4)
+ordenar
+imprimirCadena
+ordenar
+imprimirCadena
+insertarAlFinal (9,3.4)
+ordenar
+imprimirCadena
+finalCadena
+insertarSegmentoDespues 3 (5,3.4) (11,9.4) (7,2.6)
+imprimirCadena
+ordenar
+imprimirCadena
+reiniciar
+# Implementar cambiarTodos
+cambiarTodos 5 3
+imprimirCadena
+insertarAlFinal (5,1.3)
+cambiarTodos 4 3
+imprimirCadena
+cambiarTodos 5 3
+imprimirCadena
+insertarAlFinal (6,1.2)
+cambiarTodos 6 3
+imprimirCadena
+cambiarTodos 4 3
+imprimirCadena
+finalCadena
+insertarSegmentoDespues 3 (5,3.4) (8,9.4) (9,2.6)
+cambiarTodos 5 5
+imprimirCadena
+cambiarTodos 9 5
+imprimirCadena
+cambiarTodos 3 5
+imprimirCadena
+cambiarTodos 5 8
+imprimirCadena
+reiniciar
+# Implementar subCadena
+insertarAlFinal (6,3.5)
+subCadena 6 6
+insertarAlFinal (6,2.5)
+subCadena 6 6
+insertarAlFinal (7,2.5)
+subCadena 6 6
+imprimirCadena
+subCadena 7 7
+subCadena 6 7
+finalCadena
+insertarSegmentoDespues 3 (7,3.4) (8,9.4) (9,2.6)
+subCadena 6 7
+subCadena 7 9
+subCadena 6 9
+imprimirCadena
+reiniciar
+# Caso de prueba privado 1
+insertarSegmentoDespues 1 (5,3.4)
+longitud
+imprimirCadena
+inicioCadena
+insertarSegmentoDespues 5 (5,3.4) (6,4.1) (7,3.5) (8,9.4) (9,2.6)
+imprimirCadena
+longitud
+borrarSegmento 1 1
+borrarSegmento 1 1
+borrarSegmento 1 1
+longitud
+imprimirCadena
+borrarSegmento 1 3
+longitud
+insertarSegmentoDespues 5 (5,3.4) (6,4.1) (7,3.5) (8,9.4) (9,2.6)
+longitud
+borrarSegmento 1 5
+longitud
+imprimirCadena
+insertarSegmentoDespues 8 (1,3.4) (2,4.1) (3,3.5) (4,9.4) (5,2.6) (6,3.5) (7,9.4) (8,2.6)
+borrarSegmento 1 1 
+borrarSegmento 7 7 
+borrarSegmento 2 5  
+longitud
+imprimirCadena
+reiniciar
+# Caso de prueba privado 2
+insertarSegmentoDespues 1 (5,3.4)
+imprimirCadena
+inicioCadena
+menorEnCadena 
+insertarSegmentoDespues 8 (8,3.4) (7,4.1) (6,3.5) (4,9.4) (3,2.6) (9,3.5) (2,9.4) (1,2.6)
+inicioCadena
+menorEnCadena 
+inicioCadena
+siguiente
+siguiente
+siguiente
+menorEnCadena 
+inicioCadena
+imprimirCadena
+borrarSegmento 8 9
+menorEnCadena
+imprimirCadena
+reiniciar
+# Caso de prueva privado 3 
+estaOrdenadaPorNaturales
+insertarSegmentoDespues 8 (1,3.4) (2,4.1) (3,3.5) (4,9.4) (5,2.6) (5,3.5) (7,9.4) (7,2.6)
+estaOrdenadaPorNaturales
+borrarSegmento 1 8
+estaOrdenadaPorNaturales
+insertarSegmentoDespues 8 (2,3.4) (2,4.1) (1,3.5) (4,9.4) (5,2.6) (5,3.5) (7,9.4) (7,2.6)
+estaOrdenadaPorNaturales
+finalCadena
+insertarSegmentoDespues 4 (7,9.4) (7,2.6) (7,9.4) (7,2.6)
+estaOrdenadaPorNaturales
+borrarSegmento 3 3 
+estaOrdenadaPorNaturales
+imprimirCadena
+reiniciar
+# Caso de prueba privado 4
+sonIgualesCadena 0
+sonIgualesCadena 1 (5,2.2)
+insertarAlFinal (5,2.2)
+sonIgualesCadena 1 (5,2.2)
+finalCadena
+insertarAlFinal (5,2.2)
+sonIgualesCadena 1 (5,2.2)
+sonIgualesCadena 2 (5,2.2) (5,2.2)
+sonIgualesCadena 2 (1,2.2) (1,2.2)
+sonIgualesCadena 2 (5,2.1) (5,2.1)
+imprimirCadena
+concatenar  2 (3,2.1) (1,2.1)
+finalCadena
+insertarSegmentoDespues 2 (3,2.1) (1,2.1)
+inicioCadena
+sonIgualesCadena 2 (5,2.1) (5,2.1)
+sonIgualesCadena 4 (5,2.20) (5,2.20) (3,2.10) (1,2.10)
+imprimirCadena
+reiniciar
+# Caso prueba privado 5
+insertarSegmentoDespues 9 (1,3.4) (2,4.1) (2,4.1) (3,3.5) (4,9.4) (5,2.6) (6,3.5) (6,9.4) (7,2.6)
+hayNatsRepetidos
+borrarSegmento 8 8  
+hayNatsRepetidos
+borrarSegmento 2 2  
+hayNatsRepetidos
+imprimirCadena
+ordenar
+borrarSegmento 1 1  
+finalCadena
+insertarSegmentoDespues 5 (11,3.4) (10,4.1) (8,4.1) (9,3.5) (1,9.4)
+ordenar
+imprimirCadena
+borrarSegmento 2 10  
+ordenar
+borrarSegmento 1 1  
+ordenar
+imprimirCadena
+reiniciar
+# Caso de prueba privado 6
+insertarSegmentoDespues 9 (22,3.4) (6,4.1) (5,4.1) (14,3.5) (3,9.4) (2,2.6) (1,3.5) (30,9.4) (15,2.6)
+ordenar
+imprimirCadena
+subCadena 1 30
+subCadena 3 15 
+subCadena 30 30 
+subCadena 1 1 
+pertenece 30
+cambiarTodos 30 4 
+pertenece 30
+pertenece 15
+cambiarTodos 15 7 
+pertenece 15
+cambiarTodos 22 8 
+cambiarTodos 14 5 
+imprimirCadena
+hayNatsRepetidos
+borrarSegmento 6 6
+ordenar
+subCadena 2 6 
+imprimirCadena
+hayNatsRepetidos
+Fin

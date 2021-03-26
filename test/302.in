@@ -1,0 +1,112 @@
+# Prueba de esVacioBinario, raiz, izquierdo, derecho, buscarSubarbol
+buscarSubarbol 1
+esVacioBinario
+insertarEnBinario (1,1.1)
+esVacioBinario
+raiz
+buscarSubarbol 2
+buscarSubarbol 1
+insertarEnBinario (2,2.2)
+insertarEnBinario (3,3.3)
+izquierdo
+derecho
+buscarSubarbol 4
+buscarSubarbol 1
+buscarSubarbol 2
+buscarSubarbol 3
+reiniciar
+# prueba de imprimirBinario
+imprimirBinario
+insertarEnBinario (5,5.5)
+imprimirBinario
+insertarEnBinario (3,3.3)
+insertarEnBinario (6,6.6)
+imprimirBinario
+insertarEnBinario (2,2.2)
+insertarEnBinario (7,7.7)
+insertarEnBinario (9,9.9)
+insertarEnBinario (8,8.8)
+imprimirBinario
+reiniciar
+# Prueba de mayor, removerMayor, removerDeBinario
+insertarEnBinario (10,10.10)
+insertarEnBinario (9,9.9)
+insertarEnBinario (11,11.11)
+insertarEnBinario (8,8.8)
+insertarEnBinario (12,12.12)
+imprimirBinario
+mayor
+removerMayor
+mayor
+imprimirBinario
+buscarSubarbol 10
+buscarSubarbol 11
+buscarSubarbol 9
+removerDeBinario 9
+imprimirBinario
+removerMayor
+imprimirBinario
+removerDeBinario 10
+removerDeBinario 8
+imprimirBinario
+reiniciar
+# Prueba cantidadBinario, esAvl, alturaBinario
+insertarEnBinario (10,10.10)
+insertarEnBinario (9,9.9)
+insertarEnBinario (11,11.11)
+insertarEnBinario (8,8.8)
+insertarEnBinario (12,12.12)
+imprimirBinario
+cantidadBinario
+esAvl
+insertarEnBinario (13,13.13)
+imprimirBinario
+esAvl
+cantidadBinario
+alturaBinario
+removerMayor
+imprimirBinario
+cantidadBinario
+alturaBinario
+reiniciar
+# Prueba linealizacion, menores sumaUltimosPositivos
+insertarEnBinario (16,16.16)
+insertarEnBinario (8,8.8)
+insertarEnBinario (24,24.24)
+insertarEnBinario (4,4.4)
+insertarEnBinario (12,12.12)
+insertarEnBinario (20,20.20)
+insertarEnBinario (28,28.28)
+imprimirBinario
+linealizacion
+menores 100
+menores 0
+menores 16
+menores 20
+sumaUltimosPositivos 3
+insertarEnBinario (22,-22.22)
+imprimirBinario
+sumaUltimosPositivos 3
+sumaUltimosPositivos 8
+sumaUltimosPositivos 7
+sumaUltimosPositivos 0
+reiniciar
+# Prueba nivelEnBinario y esCamino
+insertarEnBinario (16,16.16)
+insertarEnBinario (8,8.8)
+insertarEnBinario (24,24.24)
+insertarEnBinario (4,4.4)
+insertarEnBinario (12,12.12)
+insertarEnBinario (20,20.20)
+insertarEnBinario (28,28.28)
+nivelEnBinario 0
+nivelEnBinario 1
+nivelEnBinario 2
+nivelEnBinario 3
+nivelEnBinario 4
+esCamino 3 (16,1.1) (12,1.1) (20,1.1)
+esCamino 3 (24,1) (16,1) (8,1)
+esCamino 3 (16,1) (8,1) (4,1)
+esCamino 3 (16,1) (24,1) (28,1)
+esCamino 2 (16,1) (24,1)
+Fin

@@ -1,0 +1,20 @@
+hacerVecinos 2 5 30
+hacerVecinos 8 5 20
+hacerVecinos 1 4 10
+hacerVecinos 5 4 10
+hacerVecinos 10 4 90
+hacerVecinos 8 10 10
+hacerVecinos 3 6 40
+hacerVecinos 6 9 40
+hacerVecinos 3 9 40
+longitudesCaminosMasCortos 1
+longitudesCaminosMasCortos 2
+longitudesCaminosMasCortos 3
+longitudesCaminosMasCortos 4
+longitudesCaminosMasCortos 5
+longitudesCaminosMasCortos 6
+longitudesCaminosMasCortos 7
+longitudesCaminosMasCortos 8
+longitudesCaminosMasCortos 9
+longitudesCaminosMasCortos 10
+Fin

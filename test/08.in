@@ -1,0 +1,18 @@
+hacerVecinos 2 9 100
+hacerVecinos 2 3 100
+hacerVecinos 1 10 100
+hacerVecinos 4 7 100
+hacerVecinos 4 10 100
+sonVecinos 1 7
+accesibles 1
+accesibles 2
+accesibles 3
+accesibles 4
+accesibles 5
+accesibles 6
+accesibles 7
+accesibles 8
+accesibles 9
+accesibles 10
+Fin
+

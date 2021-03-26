@@ -1,0 +1,247 @@
+1>#  Prueba de estaVacioAvl, insertarEnAvl, buscarEnAvl, raizAvl, izqAvl y derAvl del modulo avl de enteros.
+2>Vacio.
+3>sub es vacío.
+4>Insertado.
+5>Insertado.
+6>Insertado.
+7>Insertado.
+8>No vacío.
+9>1
+ |  -  | 
+10>2
+1 - 3
+11>3
+ |  - 4
+12>4
+ |  -  | 
+13>2
+14>1
+15>3
+16>Estructuras reiniciadas.
+17>#  Prueba de insertarEnAvl, alturaDeAvl, cantidadEnAvl, enOrdenAvl.
+18>Altura de avl: 0.
+19>Cantidad en avl: 0.
+20>No hay elementos en el avl.
+21>Insertado.
+22>Altura de avl: 1.
+23>Cantidad en avl: 1.
+24>40 
+25>Insertado.
+26>Insertado.
+27>Altura de avl: 2.
+28>60
+29>40
+30>80
+31>Insertado.
+32>Insertado.
+33>Altura de avl: 3.
+34>Cantidad en avl: 5.
+35>40 60 65 70 80 
+36>70
+37>Insertado.
+38>Altura de avl: 3.
+39>65
+40>60
+41>70
+42>Insertado.
+43>Insertado.
+44>Altura de avl: 4.
+45>Insertado.
+46>Insertado.
+47>Altura de avl: 4.
+48>60
+49>30
+50>65
+51>Insertado.
+52>Insertado.
+53>Altura de avl: 4.
+54>60
+55>35
+56>Insertado.
+57>Altura de avl: 4.
+58>Insertado.
+59>Insertado.
+60>Insertado.
+61>Insertado.
+62>Altura de avl: 5.
+63>Insertado.
+64>Altura de avl: 5.
+65>Cantidad en avl: 18.
+66>10 20 30 32 35 40 45 50 52 55 57 58 60 61 63 65 70 80 
+67>50
+68>35
+69>60
+70>Estructuras reiniciadas.
+71>#  Prueba avlMin.
+72>
+1 
+Cantidad: 1.
+73>
+1 
+2 
+Cantidad: 2.
+74>
+1 
+2 4 
+3 
+Cantidad: 4.
+75>
+1 
+2 4 6 
+3 7 
+5 
+Cantidad: 7.
+76>
+1 
+2 4 6 9 
+3 7 10 12 
+5 11 
+8 
+Cantidad: 12.
+77>
+1 
+2 4 6 9 14 22 35 56 90 
+3 7 10 12 15 17 19 23 25 27 30 36 38 40 43 48 57 59 61 64 69 77 91 93 95 98 103 111 124 
+5 11 16 20 24 28 31 33 37 41 44 46 49 51 53 58 62 65 67 70 72 74 78 80 82 85 92 96 99 101 104 106 108 112 114 116 119 125 127 129 132 137 
+8 18 26 32 39 45 50 54 60 66 71 75 79 83 86 88 94 100 105 109 113 117 120 122 126 130 133 135 138 140 142 
+13 29 42 52 63 73 81 87 97 107 115 121 128 134 139 143 
+21 47 68 84 102 118 131 141 
+34 76 110 136 
+55 123 
+89 
+Cantidad: 143.
+78>Estructuras reiniciadas.
+79>#  Prueba de arregloAAvl.
+80>
+81>Altura de avl: 1.
+82>50
+83>Izquierdo es vacío
+84>Derecho es vacío
+85>50 
+86>
+87>Altura de avl: 3.
+88>40
+89>20
+90>60
+91>10 20 30 40 50 60 70 
+92>
+93>Altura de avl: 4.
+94>40
+95>20
+96>60
+97>10 20 30 40 50 60 70 80 
+98>Estructuras reiniciadas.
+99>#  Prueba de imprimirAvl.
+100>
+101>Insertado.
+102>
+40 
+103>Insertado.
+104>
+60 
+40 
+105>Insertado.
+106>
+40 80 
+60 
+107>Insertado.
+108>Insertado.
+109>Insertado.
+110>
+40 63 80 
+60 70 
+65 
+111>Insertado.
+112>Insertado.
+113>
+20 40 
+30 63 80 
+60 70 
+65 
+114>Estructuras reiniciadas.
+115>#  Prueba de operaciones de conjunto e interseccionDeConjuntos de usoTads.
+116>Vacio.
+117>0.
+118>No hay elementos en el conjunto.
+119>No pertenece.
+120>Creado el singleton.
+121>No vacío.
+122>1.
+123>5 
+124>Pertenece.
+125>Arreglo a conjunto con 6 elementos.
+126>6.
+127>2 3 6 7 8 9 
+128>Union.
+129>9.
+130>1 2 3 4 5 6 7 8 9 
+131>Union.
+132>11.
+133>0 1 2 3 4 5 6 7 8 9 10 
+134>Diferencia.
+135>6.
+136>0 1 4 5 9 10 
+137>Intersección.
+138>0.
+139>No hay elementos en el conjunto.
+140>Diferencia.
+141>0.
+142>No hay elementos en el conjunto.
+143>Intersección.
+144>0.
+145>No hay elementos en el conjunto.
+146>Union.
+147>3.
+148>1 4 5 
+149>Estructuras reiniciadas.
+150>#  Prueba de unión, diferencia e intersección entre conjuntos vacíos y singleton .
+151>#  vacío - vacío.
+152>Union.
+153>No hay elementos en el conjunto.
+154>Diferencia.
+155>No hay elementos en el conjunto.
+156>Intersección.
+157>No hay elementos en el conjunto.
+158>#  vacío - singleton.
+159>Diferencia.
+160>No hay elementos en el conjunto.
+161>Intersección.
+162>No hay elementos en el conjunto.
+163>Union.
+164>5 
+165>#  singleton - vacío .
+166>Union.
+167>5 
+168>Diferencia.
+169>5 
+170>Intersección.
+171>No hay elementos en el conjunto.
+172>#  para volver a tener un singleton.
+173>Union.
+174>#  singleton - singleton.
+175>Union.
+176>6 
+177>Diferencia.
+178>6 
+179>Intersección.
+180>6 
+181>Diferencia.
+182>No hay elementos en el conjunto.
+183>Union.
+184>Intersección.
+185>No hay elementos en el conjunto.
+186>Union.
+187>Union.
+188>4 6 
+189>#  para volver a tener un singleton.
+190>Intersección.
+191>6 
+192>Diferencia.
+193>6 
+194>Intersección.
+195>No hay elementos en el conjunto.
+196>#  para volver a tener un singleton.
+197>Union.
+198>Union.
+199>6 8 
+200>Fin.

@@ -1,0 +1,20 @@
+# Implementar accesibles
+accesibles 1
+accesibles 2
+accesibles 5
+accesibles 9
+accesibles 10
+hacerVecinos 5 2 25
+accesibles 2
+accesibles 5
+hacerVecinos 5 9 59
+accesibles 2
+accesibles 5
+accesibles 9
+hacerVecinos 2 9 29
+accesibles 2
+accesibles 5
+accesibles 9
+accesibles 1
+accesibles 10
+Fin

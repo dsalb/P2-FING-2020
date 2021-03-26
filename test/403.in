@@ -1,0 +1,113 @@
+# Prueba de operaciones de mapping
+estaLlenoMap
+existeAsociacionEnMap 5
+asociarEnMap 5 1.5
+existeAsociacionEnMap 5
+estaLlenoMap
+desasociarEnMap 5
+existeAsociacionEnMap 5
+estaLlenoMap
+asociarEnMap 5 2.5
+existeAsociacionEnMap 5
+valorEnMap 5
+asociarEnMap 10 1.2
+asociarEnMap 20 1.3
+asociarEnMap 90 1.4
+asociarEnMap 80 1.5
+asociarEnMap 70 1.6
+asociarEnMap 60 1.7
+asociarEnMap 40 1.8
+asociarEnMap 30 1.9
+valorEnMap 5
+valorEnMap 30
+estaLlenoMap
+asociarEnMap 100 1.0
+estaLlenoMap
+reiniciar
+# Prueba de operaciones de colaDePrioridad
+rangoCP
+estaVaciaCP
+estaEnCP 5
+insertarEnCP 5 1.5
+estaEnCP 5
+prioridad 5
+estaVaciaCP
+prioritario
+eliminarPrioritario
+estaVaciaCP
+insertarEnCP 5 1.9
+prioridad 5
+actualizarEnCP 5 1.5
+prioridad 5
+prioritario
+eliminarPrioritario
+estaVaciaCP
+insertarEnCP 5 1.5
+insertarEnCP 1 1.2
+prioritario
+insertarEnCP 2 1.3
+insertarEnCP 9 1.4
+insertarEnCP 8 1.5
+insertarEnCP 7 1.6
+insertarEnCP 6 1.7
+insertarEnCP 4 1.8
+insertarEnCP 3 1.9
+insertarEnCP 10 -2.5
+prioritario
+reiniciar
+# posibles colisiones
+asociarEnMap 0 -1.0
+asociarEnMap 10 10.0
+valorEnMap 0
+valorEnMap 10
+desasociarEnMap 10
+asociarEnMap 11 11.0
+valorEnMap 11
+asociarEnMap 12 12.0
+valorEnMap 12
+asociarEnMap 13 13.0
+valorEnMap 13
+asociarEnMap 14 14.0
+valorEnMap 14
+asociarEnMap 15 15.0
+valorEnMap 15
+asociarEnMap 16 16.0
+valorEnMap 16
+asociarEnMap 17 17.0
+valorEnMap 17
+asociarEnMap 18 17.0
+valorEnMap 18
+asociarEnMap 19 19.0
+valorEnMap 19
+valorEnMap 0
+desasociarEnMap 0
+asociarEnMap 10 10.0
+valorEnMap 10
+valorEnMap 11
+valorEnMap 12
+valorEnMap 13
+valorEnMap 14
+valorEnMap 15
+valorEnMap 16
+valorEnMap 17
+valorEnMap 18
+valorEnMap 19
+# actualizaciones que aumentan
+insertarEnCP 3 3.0
+prioritario
+insertarEnCP 4 4.0
+prioritario
+insertarEnCP 2 2.0
+prioritario
+insertarEnCP 1 1.0
+prioritario
+actualizarEnCP 2 0
+prioritario
+actualizarEnCP 3 -1
+prioritario
+actualizarEnCP 1 5.0
+actualizarEnCP 2 7.0
+actualizarEnCP 3 6
+prioritario
+
+Fin

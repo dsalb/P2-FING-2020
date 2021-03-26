@@ -1,0 +1,112 @@
+1>#  Prueba de operaciones de mapping.
+2>No lleno.
+3>No existe asociacion.
+4>Establecida la asociación.
+5>Existe asociacion.
+6>No lleno.
+7>Eliminada la asociación.
+8>No existe asociacion.
+9>No lleno.
+10>Establecida la asociación.
+11>Existe asociacion.
+12>2.50
+13>Establecida la asociación.
+14>Establecida la asociación.
+15>Establecida la asociación.
+16>Establecida la asociación.
+17>Establecida la asociación.
+18>Establecida la asociación.
+19>Establecida la asociación.
+20>Establecida la asociación.
+21>2.50
+22>1.90
+23>No lleno.
+24>Establecida la asociación.
+25>LLeno.
+26>Estructuras reiniciadas.
+27>#  Prueba de operaciones de colaDePrioridad.
+28>10.
+29>Vacia.
+30>No está.
+31>Se insertó el elemento.
+32>Está.
+33>1.50.
+34>No vacía.
+35>5
+36>Eliminado.
+37>Vacia.
+38>Se insertó el elemento.
+39>1.90.
+40>Se actualizó el valor.
+41>1.50.
+42>5
+43>Eliminado.
+44>Vacia.
+45>Se insertó el elemento.
+46>Se insertó el elemento.
+47>1
+48>Se insertó el elemento.
+49>Se insertó el elemento.
+50>Se insertó el elemento.
+51>Se insertó el elemento.
+52>Se insertó el elemento.
+53>Se insertó el elemento.
+54>Se insertó el elemento.
+55>Se insertó el elemento.
+56>10
+57>Estructuras reiniciadas.
+58>#  posibles colisiones.
+59>Establecida la asociación.
+60>Establecida la asociación.
+61>-1.00
+62>10.00
+63>Eliminada la asociación.
+64>Establecida la asociación.
+65>11.00
+66>Establecida la asociación.
+67>12.00
+68>Establecida la asociación.
+69>13.00
+70>Establecida la asociación.
+71>14.00
+72>Establecida la asociación.
+73>15.00
+74>Establecida la asociación.
+75>16.00
+76>Establecida la asociación.
+77>17.00
+78>Establecida la asociación.
+79>17.00
+80>Establecida la asociación.
+81>19.00
+82>-1.00
+83>Eliminada la asociación.
+84>Establecida la asociación.
+85>10.00
+86>11.00
+87>12.00
+88>13.00
+89>14.00
+90>15.00
+91>16.00
+92>17.00
+93>17.00
+94>19.00
+95>#  actualizaciones que aumentan.
+96>Se insertó el elemento.
+97>3
+98>Se insertó el elemento.
+99>3
+100>Se insertó el elemento.
+101>2
+102>Se insertó el elemento.
+103>1
+104>Se actualizó el valor.
+105>2
+106>Se actualizó el valor.
+107>3
+108>Se actualizó el valor.
+109>Se actualizó el valor.
+110>Se actualizó el valor.
+111>4
+112>Fin.

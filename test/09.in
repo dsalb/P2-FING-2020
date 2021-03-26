@@ -1,0 +1,28 @@
+# Implementar longitudesCaminosMasCortos
+longitudesCaminosMasCortos 5
+hacerVecinos 2 5 30
+longitudesCaminosMasCortos 2
+longitudesCaminosMasCortos 5
+hacerVecinos 8 5 20
+longitudesCaminosMasCortos 2
+longitudesCaminosMasCortos 5
+longitudesCaminosMasCortos 8
+hacerVecinos 1 4 10
+hacerVecinos 5 4 10
+longitudesCaminosMasCortos 1
+longitudesCaminosMasCortos 2
+longitudesCaminosMasCortos 4
+longitudesCaminosMasCortos 5
+longitudesCaminosMasCortos 8
+hacerVecinos 10 4 90
+longitudesCaminosMasCortos 1
+longitudesCaminosMasCortos 2
+longitudesCaminosMasCortos 3
+longitudesCaminosMasCortos 4
+longitudesCaminosMasCortos 5
+longitudesCaminosMasCortos 6
+longitudesCaminosMasCortos 7
+longitudesCaminosMasCortos 8
+longitudesCaminosMasCortos 9
+longitudesCaminosMasCortos 10
+Fin

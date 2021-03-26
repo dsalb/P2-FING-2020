@@ -1,0 +1,58 @@
+# Prueba de operaciones de pila
+estaVaciaPila
+apilar 1
+apilar 2
+apilar 3
+apilar 4
+apilar 5
+apilar 6
+apilar 7
+apilar 8
+apilar 9
+estaVaciaPila
+estaLlenaPila
+apilar 10
+estaVaciaPila
+estaLlenaPila
+cima
+desapilar 
+desapilar
+cima
+desapilar 
+desapilar
+cima
+desapilar 
+desapilar
+cima
+desapilar 
+desapilar
+cima
+desapilar 
+cima
+desapilar
+estaVaciaPila
+estaLlenaPila
+reiniciar
+# Prueba de operaciones de colaAvls 
+estaVaciaColaAvls
+encolar 5 0
+estaVaciaColaAvls
+frente
+encolar -4 0
+estaVaciaColaAvls
+frente
+encolar 20 0
+encolar 50 0
+estaVaciaColaAvls
+frente
+desencolar
+frente
+estaVaciaColaAvls
+desencolar
+frente
+desencolar
+frente
+estaVaciaColaAvls
+desencolar
+estaVaciaColaAvls
+Fin

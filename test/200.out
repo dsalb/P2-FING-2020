@@ -1,0 +1,639 @@
+1>#  Implementar structs, crearCadena, liberarCadena, inicioCadena.
+2>#  Estas funciones siempre son llamadas por principal.cpp.
+3>Estructuras reiniciadas.
+4>#  Implementar esVaciaCadena, esFinalCadena, infoCadena, siguiente, insertarAlFinal.
+5>cad vacia.
+6>loc no es final de cad.
+7>Insertado al final.
+8>loc no es final de cad.
+9>cad no vacia.
+10>loc al inicio.
+11>loc es final de cad.
+12>(1,2.10)
+13>Insertado al final.
+14>loc no es final de cad.
+15>(1,2.10)
+16>loc al siguiente.
+17>loc es final de cad.
+18>(3,0.30)
+19>Insertado al final.
+20>(3,0.30)
+21>loc al siguiente.
+22>(2,1.20)
+23>loc al inicio.
+24>(1,2.10)
+25>loc al siguiente.
+26>(3,0.30)
+27>loc al siguiente.
+28>(2,1.20)
+29>Insertado al final.
+30>Insertado al final.
+31>Insertado al final.
+32>Insertado al final.
+33>Insertado al final.
+34>Insertado al final.
+35>loc al siguiente.
+36>(9,1.20)
+37>loc al siguiente.
+38>loc al siguiente.
+39>loc al siguiente.
+40>loc al siguiente.
+41>loc no es final de cad.
+42>loc al siguiente.
+43>loc es final de cad.
+44>(4,1.20)
+45>loc al inicio.
+46>(1,2.10)
+47>Estructuras reiniciadas.
+48>#  Implmentar insertarAntes.
+49>Insertado al final.
+50>loc al inicio.
+51>Insertado antes de loc.
+52>(5,2.80)
+53>loc al inicio.
+54>(3,6.70)
+55>loc al siguiente.
+56>(5,2.80)
+57>Insertado antes de loc.
+58>(5,2.80)
+59>loc al inicio.
+60>(3,6.70)
+61>loc al siguiente.
+62>(4,3.10)
+63>Insertado antes de loc.
+64>(4,3.10)
+65>loc al inicio.
+66>(3,6.70)
+67>Insertado antes de loc.
+68>(3,6.70)
+69>loc al inicio.
+70>(1,7.20)
+71>loc al siguiente.
+72>(3,6.70)
+73>loc al siguiente.
+74>(8,2.90)
+75>loc al siguiente.
+76>(4,3.10)
+77>loc al siguiente.
+78>(5,2.80)
+79>Estructuras reiniciadas.
+80>#  Implementar finalCadena, anterior.
+81>Insertado al final.
+82>loc al final.
+83>(10,2.10)
+84>Insertado al final.
+85>Insertado al final.
+86>Insertado al final.
+87>Insertado al final.
+88>Insertado al final.
+89>Insertado al final.
+90>loc al final.
+91>(4,2.10)
+92>loc al anterior.
+93>(5,2.10)
+94>loc al anterior.
+95>(6,2.10)
+96>loc al anterior.
+97>(7,2.10)
+98>loc al anterior.
+99>(8,2.10)
+100>loc al anterior.
+101>(9,2.10)
+102>loc al anterior.
+103>(10,2.10)
+104>Estructuras reiniciadas.
+105>#  05 Implementar esInicioCadena esLocalizador.
+106>loc no es incio de cad.
+107>loc no es final de cad.
+108>Insertado al final.
+109>loc no es incio de cad.
+110>loc no es final de cad.
+111>loc al inicio.
+112>loc es incio de cad.
+113>loc es final de cad.
+114>loc al final.
+115>loc es incio de cad.
+116>loc es final de cad.
+117>Insertado al final.
+118>loc es incio de cad.
+119>loc no es final de cad.
+120>loc al final.
+121>loc no es incio de cad.
+122>loc es final de cad.
+123>Insertado al final.
+124>loc no es incio de cad.
+125>loc no es final de cad.
+126>loc al inicio.
+127>loc es incio de cad.
+128>loc no es final de cad.
+129>loc al anterior.
+130>loc no válido.
+131>loc al inicio.
+132>loc válido.
+133>loc es incio de cad.
+134>loc no es final de cad.
+135>loc al siguiente.
+136>loc válido.
+137>loc no es incio de cad.
+138>loc no es final de cad.
+139>loc al siguiente.
+140>loc válido.
+141>loc no es incio de cad.
+142>loc es final de cad.
+143>loc al siguiente.
+144>loc no válido.
+145>Estructuras reiniciadas.
+146>#  Implmentar removerDeCadena.
+147>Insertado al final.
+148>Insertado al final.
+149>Insertado al final.
+150>Insertado al final.
+151>Insertado al final.
+152>loc al inicio.
+153>loc al siguiente.
+154>loc al siguiente.
+155>Removido.
+156>loc al inicio.
+157>loc al siguiente.
+158>(7,2.10)
+159>loc al siguiente.
+160>(9,2.10)
+161>loc al inicio.
+162>Removido.
+163>loc al inicio.
+164>(7,2.10)
+165>loc al final.
+166>Removido.
+167>loc al final.
+168>(9,2.10)
+169>Removido.
+170>loc al final.
+171>(7,2.10)
+172>loc al inicio.
+173>(7,2.10)
+174>cad no vacia.
+175>Removido.
+176>cad vacia.
+177>Insertado al final.
+178>cad no vacia.
+179>loc al inicio.
+180>(6,2.10)
+181>loc al siguiente.
+182>loc no válido.
+183>loc al final.
+184>(6,2.10)
+185>loc al anterior.
+186>loc no válido.
+187>Estructuras reiniciadas.
+188>#  Implementar imprimirCadena.
+189>
+190>Insertado al final.
+191>(6,2.10)
+192>Insertado al final.
+193>Insertado al final.
+194>Insertado al final.
+195>Insertado al final.
+196>(6,2.10)(7,3.10)(8,4.10)(9,5.10)(10,6.10)
+197>Estructuras reiniciadas.
+198>#  Implementar kesimo.
+199>loc quedó no válido.
+200>loc quedó no válido.
+201>Insertado al final.
+202>loc quedó no válido.
+203>loc en la posición 1.
+204>(3,6.80)
+205>loc quedó no válido.
+206>loc al final.
+207>Insertado al final.
+208>Insertado al final.
+209>Insertado al final.
+210>loc en la posición 1.
+211>(3,6.80)
+212>loc en la posición 2.
+213>(5,3.40)
+214>loc en la posición 4.
+215>(9,2.60)
+216>loc quedó no válido.
+217>Estructuras reiniciadas.
+218>#  Implementar localizadorEnCadena, precedeEnCadena.
+219>loc no pertenece a cad.
+220>Insertado al final.
+221>loc no pertenece a cad.
+222>loc al final.
+223>loc pertenece a cad.
+224>loc al siguiente.
+225>loc no pertenece a cad.
+226>loc1 no precede a loc.
+227>loc al final.
+228>loc1 precede a loc.
+229>loc1 no precede a loc.
+230>loc1 no precede a loc.
+231>Segmento insertado después de loc.
+232>loc1 precede a loc.
+233>loc1 no precede a loc.
+234>loc1 no precede a loc.
+235>loc al siguiente.
+236>loc1 precede a loc.
+237>loc1 precede a loc.
+238>loc1 no precede a loc.
+239>loc al final.
+240>loc1 precede a loc.
+241>loc1 no precede a loc.
+242>loc al anterior.
+243>loc1 no precede a loc.
+244>loc1 precede a loc.
+245>Estructuras reiniciadas.
+246>#  Implementar insertarSegmentoDespues.
+247>Segmento insertado después de loc.
+248>
+249>Segmento insertado después de loc.
+250>(5,3.40)
+251>loc al final.
+252>Segmento insertado después de loc.
+253>(5,3.40)
+254>Removido.
+255>Segmento insertado después de loc.
+256>(5,3.40)(8,9.40)(9,2.60)
+257>loc al inicio.
+258>Segmento insertado después de loc.
+259>(5,3.40)(8,9.40)(9,2.60)
+260>Segmento insertado después de loc.
+261>(5,3.40)(6,5.20)(7,0.90)(8,9.40)(9,2.60)
+262>Estructuras reiniciadas.
+263>#  Implementar copiarSegmento.
+264>
+265>Segmento insertado después de loc.
+266>(3,2.40)
+267>(3,2.40)
+268>loc al final.
+269>Segmento insertado después de loc.
+270>(3,2.40)
+271>(3,2.40)(5,3.40)(8,9.40)(9,2.60)
+272>(5,3.40)(8,9.40)
+273>(9,2.60)
+274>Estructuras reiniciadas.
+275>#  Implementar borrarSegmento.
+276>Segmento borrado.
+277>Segmento insertado después de loc.
+278>Segmento borrado.
+279>
+280>loc al inicio.
+281>Segmento insertado después de loc.
+282>Segmento borrado.
+283>(5,3.40)(7,3.50)(8,9.40)(9,2.60)
+284>Segmento borrado.
+285>(5,3.40)(7,3.50)
+286>Segmento borrado.
+287>(7,3.50)
+288>loc al inicio.
+289>Segmento insertado después de loc.
+290>(7,3.50)(5,3.40)(6,4.10)(7,3.50)(8,9.40)(9,2.60)
+291>Segmento borrado.
+292>
+293>Estructuras reiniciadas.
+294>#  Implementar cambiarEnCadena, intercambiar.
+295>Segmento insertado después de loc.
+296>loc al inicio.
+297>Cambio.
+298>(3,2.50)(8,9.40)(9,2.60)
+299>loc al siguiente.
+300>Cambio.
+301>(3,2.50)(6,9.20)(9,2.60)
+302>loc al siguiente.
+303>Cambio.
+304>(3,2.50)(6,9.20)(7,2.50)
+305>Intercambio.
+306>(3,2.50)(6,9.20)(7,2.50)
+307>Intercambio.
+308>(3,2.50)(6,9.20)(7,2.50)
+309>loc al final.
+310>(7,2.50)
+311>Intercambio.
+312>(3,2.50)
+313>(7,2.50)(6,9.20)(3,2.50)
+314>Intercambio.
+315>(7,2.50)
+316>(3,2.50)(6,9.20)(7,2.50)
+317>Intercambio.
+318>(6,9.20)
+319>(3,2.50)(7,2.50)(6,9.20)
+320>Estructuras reiniciadas.
+321>#  Implementar siguienteClave, anteriorClave.
+322>loc quedó no válido.
+323>Segmento insertado después de loc.
+324>loc al inicio.
+325>loc avanzó buscando 5.
+326>(5,3.40)
+327>loc avanzó buscando 8.
+328>(8,9.40)
+329>loc al inicio.
+330>loc avanzó buscando 6.
+331>(6,2.60)
+332>loc quedó no válido.
+333>loc no válido.
+334>loc al final.
+335>Segmento insertado después de loc.
+336>loc al inicio.
+337>loc al siguiente.
+338>loc avanzó buscando 5.
+339>(5,-3.20)
+340>loc al inicio.
+341>loc avanzó buscando 6.
+342>(6,2.60)
+343>loc avanzó buscando 6.
+344>(6,2.60)
+345>loc al siguiente.
+346>loc avanzó buscando 6.
+347>(6,-2.40)
+348>loc al final.
+349>loc retrocedió buscando 6.
+350>(6,-2.40)
+351>loc retrocedió buscando 8.
+352>(8,-9.20)
+353>loc retrocedió buscando 6.
+354>(6,2.60)
+355>loc retrocedió buscando 5.
+356>(5,3.40)
+357>loc quedó no válido.
+358>loc no válido.
+359>Estructuras reiniciadas.
+360>#  Implementar menorEnCadena.
+361>Segmento insertado después de loc.
+362>loc al inicio.
+363>El menor es 3.
+364>loc al siguiente.
+365>El menor es 5.
+366>El menor es 5.
+367>Estructuras reiniciadas.
+368>#  Implementar pertenece.
+369>5 no pertenece a cad.
+370>Segmento insertado después de loc.
+371>5 pertenece a cad.
+372>6 pertenece a cad.
+373>8 pertenece a cad.
+374>9 no pertenece a cad.
+375>Estructuras reiniciadas.
+376>#  Implementar longitud.
+377>Longitud: 0
+378>Segmento insertado después de loc.
+379>Longitud: 3
+380>Estructuras reiniciadas.
+381>#  Implementar estaOrdenada.
+382>cad ordenada.
+383>Insertado al final.
+384>cad ordenada.
+385>Insertado al final.
+386>cad ordenada.
+387>Insertado al final.
+388>cad ordenada.
+389>loc al final.
+390>Segmento insertado después de loc.
+391>cad ordenada.
+392>loc al inicio.
+393>Insertado antes de loc.
+394>cad no ordenada.
+395>loc al inicio.
+396>Removido.
+397>cad ordenada.
+398>Insertado al final.
+399>cad no ordenada.
+400>loc al final.
+401>Removido.
+402>loc al final.
+403>Insertado antes de loc.
+404>cad no ordenada.
+405>loc al anterior.
+406>Removido.
+407>cad ordenada.
+408>Estructuras reiniciadas.
+409>#  Implementar hayNatsRepetidos.
+410>En cad no hay naturales repetidos.
+411>Insertado al final.
+412>En cad no hay naturales repetidos.
+413>Insertado al final.
+414>En cad no hay naturales repetidos.
+415>Insertado al final.
+416>En cad no hay naturales repetidos.
+417>Insertado al final.
+418>En cad hay naturales repetidos.
+419>loc al final.
+420>Cambio.
+421>En cad no hay naturales repetidos.
+422>Insertado al final.
+423>En cad hay naturales repetidos.
+424>loc al final.
+425>Cambio.
+426>En cad no hay naturales repetidos.
+427>(6,2.40)(4,2.40)(9,2.40)(7,2.40)(1,2.40)
+428>loc al final.
+429>Insertado antes de loc.
+430>En cad hay naturales repetidos.
+431>(6,2.40)(4,2.40)(9,2.40)(7,2.40)(4,3.40)(1,2.40)
+432>Estructuras reiniciadas.
+433>#  Implementar sonIgualesCadena.
+434>Son iguales.
+435>No son iguales.
+436>Insertado al final.
+437>No son iguales.
+438>No son iguales.
+439>Son iguales.
+440>loc al final.
+441>Segmento insertado después de loc.
+442>Son iguales.
+443>No son iguales.
+444>No son iguales.
+445>No son iguales.
+446>Estructuras reiniciadas.
+447>#  Implementar concatenar.
+448>
+449>(5,3.40)(8,9.40)(7,2.60)
+450>
+451>Segmento insertado después de loc.
+452>(5,3.40)(8,9.40)(7,2.60)
+453>(5,3.40)(8,9.40)(7,2.60)(5,3.40)(8,9.40)(7,2.60)
+454>(5,3.40)(8,9.40)(7,2.60)
+455>Estructuras reiniciadas.
+456>#  Implementar ordenar.
+457>Quedó ordenada.
+458>Insertado al final.
+459>Quedó ordenada.
+460>Insertado al final.
+461>Quedó ordenada.
+462>(2,3.40)(6,2.40)
+463>Quedó ordenada.
+464>(2,3.40)(6,2.40)
+465>Insertado al final.
+466>Quedó ordenada.
+467>(2,3.40)(6,2.40)(9,3.40)
+468>loc al final.
+469>Segmento insertado después de loc.
+470>(2,3.40)(6,2.40)(9,3.40)(5,3.40)(11,9.40)(7,2.60)
+471>Quedó ordenada.
+472>(2,3.40)(5,3.40)(6,2.40)(7,2.60)(9,3.40)(11,9.40)
+473>Estructuras reiniciadas.
+474>#  Implementar cambiarTodos.
+475>Cambiados.
+476>
+477>Insertado al final.
+478>Cambiados.
+479>(5,1.30)
+480>Cambiados.
+481>(3,1.30)
+482>Insertado al final.
+483>Cambiados.
+484>(3,1.30)(3,1.20)
+485>Cambiados.
+486>(3,1.30)(3,1.20)
+487>loc al final.
+488>Segmento insertado después de loc.
+489>Cambiados.
+490>(3,1.30)(3,1.20)(5,3.40)(8,9.40)(9,2.60)
+491>Cambiados.
+492>(3,1.30)(3,1.20)(5,3.40)(8,9.40)(5,2.60)
+493>Cambiados.
+494>(5,1.30)(5,1.20)(5,3.40)(8,9.40)(5,2.60)
+495>Cambiados.
+496>(8,1.30)(8,1.20)(8,3.40)(8,9.40)(8,2.60)
+497>Estructuras reiniciadas.
+498>#  Implementar subCadena.
+499>Insertado al final.
+500>(6,3.50)
+501>Insertado al final.
+502>(6,3.50)(6,2.50)
+503>Insertado al final.
+504>(6,3.50)(6,2.50)
+505>(6,3.50)(6,2.50)(7,2.50)
+506>(7,2.50)
+507>(6,3.50)(6,2.50)(7,2.50)
+508>loc al final.
+509>Segmento insertado después de loc.
+510>(6,3.50)(6,2.50)(7,2.50)(7,3.40)
+511>(7,2.50)(7,3.40)(8,9.40)(9,2.60)
+512>(6,3.50)(6,2.50)(7,2.50)(7,3.40)(8,9.40)(9,2.60)
+513>(6,3.50)(6,2.50)(7,2.50)(7,3.40)(8,9.40)(9,2.60)
+514>Estructuras reiniciadas.
+515>#  Caso de prueba privado 1.
+516>Segmento insertado después de loc.
+517>Longitud: 1
+518>(5,3.40)
+519>loc al inicio.
+520>Segmento insertado después de loc.
+521>(5,3.40)(5,3.40)(6,4.10)(7,3.50)(8,9.40)(9,2.60)
+522>Longitud: 6
+523>Segmento borrado.
+524>Segmento borrado.
+525>Segmento borrado.
+526>Longitud: 3
+527>(7,3.50)(8,9.40)(9,2.60)
+528>Segmento borrado.
+529>Longitud: 0
+530>Segmento insertado después de loc.
+531>Longitud: 5
+532>Segmento borrado.
+533>Longitud: 0
+534>
+535>Segmento insertado después de loc.
+536>Segmento borrado.
+537>Segmento borrado.
+538>Segmento borrado.
+539>Longitud: 2
+540>(2,4.10)(7,9.40)
+541>Estructuras reiniciadas.
+542>#  Caso de prueba privado 2.
+543>Segmento insertado después de loc.
+544>(5,3.40)
+545>loc al inicio.
+546>El menor es 5.
+547>Segmento insertado después de loc.
+548>loc al inicio.
+549>El menor es 1.
+550>loc al inicio.
+551>loc al siguiente.
+552>loc al siguiente.
+553>loc al siguiente.
+554>El menor es 1.
+555>loc al inicio.
+556>(5,3.40)(8,3.40)(7,4.10)(6,3.50)(4,9.40)(3,2.60)(9,3.50)(2,9.40)(1,2.60)
+557>Segmento borrado.
+558>El menor es 3.
+559>(5,3.40)(8,3.40)(7,4.10)(6,3.50)(4,9.40)(3,2.60)(9,3.50)
+560>Estructuras reiniciadas.
+561>#  Caso de prueva privado 3 .
+562>cad ordenada.
+563>Segmento insertado después de loc.
+564>cad ordenada.
+565>Segmento borrado.
+566>cad ordenada.
+567>Segmento insertado después de loc.
+568>cad no ordenada.
+569>loc al final.
+570>Segmento insertado después de loc.
+571>cad no ordenada.
+572>Segmento borrado.
+573>cad ordenada.
+574>(2,3.40)(2,4.10)(4,9.40)(5,2.60)(5,3.50)(7,9.40)(7,2.60)(7,9.40)(7,2.60)(7,9.40)(7,2.60)
+575>Estructuras reiniciadas.
+576>#  Caso de prueba privado 4.
+577>Son iguales.
+578>No son iguales.
+579>Insertado al final.
+580>Son iguales.
+581>loc al final.
+582>Insertado al final.
+583>No son iguales.
+584>Son iguales.
+585>No son iguales.
+586>No son iguales.
+587>(5,2.20)(5,2.20)
+588>(5,2.20)(5,2.20)(3,2.10)(1,2.10)
+589>loc al final.
+590>Segmento insertado después de loc.
+591>loc al inicio.
+592>No son iguales.
+593>Son iguales.
+594>(5,2.20)(5,2.20)(3,2.10)(1,2.10)
+595>Estructuras reiniciadas.
+596>#  Caso prueba privado 5.
+597>Segmento insertado después de loc.
+598>En cad hay naturales repetidos.
+599>Segmento borrado.
+600>En cad hay naturales repetidos.
+601>Segmento borrado.
+602>En cad no hay naturales repetidos.
+603>(1,3.40)(2,4.10)(3,3.50)(4,9.40)(5,2.60)(6,3.50)(7,2.60)
+604>Quedó ordenada.
+605>Segmento borrado.
+606>loc al final.
+607>Segmento insertado después de loc.
+608>Quedó ordenada.
+609>(1,9.40)(2,4.10)(3,3.50)(4,9.40)(5,2.60)(6,3.50)(7,2.60)(8,4.10)(9,3.50)(10,4.10)(11,3.40)
+610>Segmento borrado.
+611>Quedó ordenada.
+612>Segmento borrado.
+613>Quedó ordenada.
+614>(11,3.40)
+615>Estructuras reiniciadas.
+616>#  Caso de prueba privado 6.
+617>Segmento insertado después de loc.
+618>Quedó ordenada.
+619>(1,3.50)(2,2.60)(3,9.40)(5,4.10)(6,4.10)(14,3.50)(15,2.60)(22,3.40)(30,9.40)
+620>(1,3.50)(2,2.60)(3,9.40)(5,4.10)(6,4.10)(14,3.50)(15,2.60)(22,3.40)(30,9.40)
+621>(3,9.40)(5,4.10)(6,4.10)(14,3.50)(15,2.60)
+622>(30,9.40)
+623>(1,3.50)
+624>30 pertenece a cad.
+625>Cambiados.
+626>30 no pertenece a cad.
+627>15 pertenece a cad.
+628>Cambiados.
+629>15 no pertenece a cad.
+630>Cambiados.
+631>Cambiados.
+632>(1,3.50)(2,2.60)(3,9.40)(5,4.10)(6,4.10)(5,3.50)(7,2.60)(8,3.40)(4,9.40)
+633>En cad hay naturales repetidos.
+634>Segmento borrado.
+635>Quedó ordenada.
+636>(2,2.60)(3,9.40)(4,9.40)(5,4.10)(6,4.10)
+637>(1,3.50)(2,2.60)(3,9.40)(4,9.40)(5,4.10)(6,4.10)(7,2.60)(8,3.40)
+638>En cad no hay naturales repetidos.
+639>Fin.

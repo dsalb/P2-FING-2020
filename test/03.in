@@ -1,0 +1,14 @@
+# Implementar distancia
+hacerVecinos 5 2 25
+distancia 2 5
+distancia 5 2
+hacerVecinos 5 8 58
+distancia 8 5
+distancia 5 8
+hacerVecinos 9 1 91
+distancia 1 9
+distancia 9 1
+hacerVecinos 2 10 210
+distancia 10 2
+distancia 2 10
+Fin

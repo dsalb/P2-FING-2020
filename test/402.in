@@ -1,0 +1,200 @@
+# Prueba de estaVacioAvl, insertarEnAvl, buscarEnAvl, raizAvl, izqAvl y derAvl del modulo avl de enteros
+estaVacioAvl
+buscarEnAvl 1
+insertarEnAvl 1
+insertarEnAvl 2
+insertarEnAvl 3
+insertarEnAvl 4
+estaVacioAvl
+buscarEnAvl 1
+buscarEnAvl 2
+buscarEnAvl 3
+buscarEnAvl 4
+raizAvl
+izqAvl
+derAvl
+reiniciar
+# Prueba de insertarEnAvl, alturaDeAvl, cantidadEnAvl, enOrdenAvl
+alturaDeAvl
+cantidadEnAvl
+enOrdenAvl
+insertarEnAvl 40
+alturaDeAvl
+cantidadEnAvl
+enOrdenAvl
+insertarEnAvl 60
+insertarEnAvl 80
+alturaDeAvl
+raizAvl
+izqAvl
+derAvl
+insertarEnAvl 70
+insertarEnAvl 65
+alturaDeAvl
+cantidadEnAvl
+enOrdenAvl
+derAvl
+insertarEnAvl 63
+alturaDeAvl
+raizAvl
+izqAvl
+derAvl
+insertarEnAvl 20
+insertarEnAvl 30
+alturaDeAvl
+insertarEnAvl 61
+insertarEnAvl 50
+alturaDeAvl
+raizAvl
+izqAvl
+derAvl
+insertarEnAvl 35
+insertarEnAvl 32
+alturaDeAvl
+raizAvl
+izqAvl
+insertarEnAvl 55
+alturaDeAvl
+insertarEnAvl 10
+insertarEnAvl 45
+insertarEnAvl 57
+insertarEnAvl 52
+alturaDeAvl
+insertarEnAvl 58
+alturaDeAvl
+cantidadEnAvl
+enOrdenAvl
+raizAvl
+izqAvl
+derAvl
+reiniciar
+# Prueba avlMin
+avlMin 1
+avlMin 2
+avlMin 3
+avlMin 4
+avlMin 5
+avlMin 10
+reiniciar
+# Prueba de arregloAAvl
+arregloAAvl 1 50
+alturaDeAvl
+raizAvl
+izqAvl
+derAvl
+enOrdenAvl
+arregloAAvl 7 10 20 30 40 50 60 70
+alturaDeAvl
+raizAvl
+izqAvl
+derAvl
+enOrdenAvl
+arregloAAvl 8 10 20 30 40 50 60 70 80
+alturaDeAvl
+raizAvl
+izqAvl
+derAvl
+enOrdenAvl
+reiniciar
+# Prueba de imprimirAvl
+imprimirAvl
+insertarEnAvl 40
+imprimirAvl
+insertarEnAvl 60
+imprimirAvl
+insertarEnAvl 80
+imprimirAvl
+insertarEnAvl 70
+insertarEnAvl 65
+insertarEnAvl 63
+imprimirAvl
+insertarEnAvl 20
+insertarEnAvl 30
+imprimirAvl
+reiniciar
+# Prueba de operaciones de conjunto e interseccionDeConjuntos de usoTads
+estaVacioConjunto
+cardinalidad
+iteradorDeConjunto
+perteneceAConjunto 5
+singleton 5
+estaVacioConjunto
+cardinalidad
+iteradorDeConjunto
+perteneceAConjunto 5
+arregloAConjunto 6 2 3 6 7 8 9
+cardinalidad
+iteradorDeConjunto
+unionDeConjuntos 3 1 4 5
+cardinalidad
+iteradorDeConjunto
+unionDeConjuntos 3 0 4 10
+cardinalidad
+iteradorDeConjunto
+diferenciaDeConjuntos  6 2 3 6 7 8 11
+cardinalidad
+iteradorDeConjunto
+interseccionDeConjuntos  6 2 3 6 7 8 11
+cardinalidad
+iteradorDeConjunto
+diferenciaDeConjuntos  6 2 3 6 7 8 11
+cardinalidad
+iteradorDeConjunto
+interseccionDeConjuntos  6 2 3 6 7 8 11
+cardinalidad
+iteradorDeConjunto
+unionDeConjuntos 3 1 4 5
+cardinalidad
+iteradorDeConjunto
+reiniciar
+# Prueba de unión, diferencia e intersección entre conjuntos vacíos y singleton 
+# vacío - vacío
+unionDeConjuntos 0
+iteradorDeConjunto
+diferenciaDeConjuntos 0
+iteradorDeConjunto
+interseccionDeConjuntos 0
+iteradorDeConjunto
+# vacío - singleton
+diferenciaDeConjuntos 1 3
+iteradorDeConjunto
+interseccionDeConjuntos 1 4
+iteradorDeConjunto
+unionDeConjuntos 1 5
+iteradorDeConjunto
+# singleton - vacío 
+unionDeConjuntos 0
+iteradorDeConjunto
+diferenciaDeConjuntos 0
+iteradorDeConjunto
+interseccionDeConjuntos 0
+iteradorDeConjunto
+# para volver a tener un singleton
+unionDeConjuntos 1 6
+# singleton - singleton
+unionDeConjuntos 1 6
+iteradorDeConjunto
+diferenciaDeConjuntos 1 3
+iteradorDeConjunto
+interseccionDeConjuntos 1 6
+iteradorDeConjunto
+diferenciaDeConjuntos 1 6
+iteradorDeConjunto
+unionDeConjuntos 1 6
+interseccionDeConjuntos 1 3
+iteradorDeConjunto
+unionDeConjuntos 1 6
+unionDeConjuntos 1 4
+iteradorDeConjunto
+# para volver a tener un singleton
+interseccionDeConjuntos 1 6
+iteradorDeConjunto
+diferenciaDeConjuntos 1 8
+iteradorDeConjunto
+interseccionDeConjuntos 1 8
+iteradorDeConjunto
+# para volver a tener un singleton
+unionDeConjuntos 1 6
+unionDeConjuntos 1 8
+iteradorDeConjunto
+Fin

@@ -1,0 +1,38 @@
+1>#  Implementar de cantidadVertices, hayMParejas, hacerVecinos.
+2>10.
+3>NO hay M parejas.
+4>Nuevos vecinos: 1 5 15.00.
+5>Nuevos vecinos: 2 5 15.00.
+6>Nuevos vecinos: 3 5 15.00.
+7>Nuevos vecinos: 4 5 15.00.
+8>Nuevos vecinos: 6 5 15.00.
+9>Nuevos vecinos: 7 5 15.00.
+10>Nuevos vecinos: 8 5 15.00.
+11>Nuevos vecinos: 9 5 15.00.
+12>Nuevos vecinos: 10 5 15.00.
+13>Nuevos vecinos: 1 6 15.00.
+14>Nuevos vecinos: 2 6 15.00.
+15>Nuevos vecinos: 3 6 15.00.
+16>Nuevos vecinos: 4 6 15.00.
+17>Nuevos vecinos: 7 6 15.00.
+18>Nuevos vecinos: 8 6 15.00.
+19>Nuevos vecinos: 9 6 15.00.
+20>Nuevos vecinos: 10 6 15.00.
+21>Nuevos vecinos: 7 1 15.00.
+22>Nuevos vecinos: 7 2 15.00.
+23>Nuevos vecinos: 7 3 15.00.
+24>Nuevos vecinos: 7 4 15.00.
+25>Nuevos vecinos: 7 8 15.00.
+26>Nuevos vecinos: 7 9 15.00.
+27>Nuevos vecinos: 7 10 15.00.
+28>Nuevos vecinos: 8 1 15.00.
+29>Nuevos vecinos: 8 2 15.00.
+30>Nuevos vecinos: 8 3 15.00.
+31>Nuevos vecinos: 8 4 15.00.
+32>Nuevos vecinos: 8 9 15.00.
+33>10.
+34>NO hay M parejas.
+35>Nuevos vecinos: 8 10 15.00.
+36>10.
+37>Hay M parejas.
+38>Fin.

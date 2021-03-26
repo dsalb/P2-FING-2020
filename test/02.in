@@ -1,0 +1,19 @@
+# Implementar sonVecinos
+sonVecinos 2 5
+sonVecinos 5 2
+hacerVecinos 5 2 25
+sonVecinos 2 5
+sonVecinos 5 2
+hacerVecinos 5 8 58
+sonVecinos 8 5
+sonVecinos 5 8
+sonVecinos 8 2
+sonVecinos 2 8
+hacerVecinos 9 1 91
+sonVecinos 1 9
+hacerVecinos 2 10 210
+sonVecinos 10 2
+sonVecinos 1 1
+sonVecinos 4 4
+sonVecinos 10 10
+Fin

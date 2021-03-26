@@ -1,0 +1,20 @@
+# implementar las operaciones de iterador
+estaDefinidaActual
+agregarAIterador 5
+agregarAIterador 2
+agregarAIterador 1
+agregarAIterador 8
+reiniciarIterador
+estaDefinidaActual
+actualEnIterador
+avanzarIterador
+avanzarIterador
+avanzarIterador
+estaDefinidaActual
+actualEnIterador
+avanzarIterador
+estaDefinidaActual
+reiniciarIterador
+estaDefinidaActual
+actualEnIterador
+Fin
