@@ -10,6 +10,6 @@
 - Colas (prioridad)
 - Listas (simples, dobles)
 - Diccionarios
-- Recusrión
+- Recursión
 - Introducción a análisis de algoritmos
 - Introducción a funciones de hash
